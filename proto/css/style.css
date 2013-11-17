@@ -2,6 +2,12 @@ body {
 	font-family : "Nunito", sans-serif;
 	font-weight : 300;
 }
+a {
+	color : #FF9900;
+}
+a:hover {
+	color : #CC7A00;
+}
 b, strong {
 	font-weight : 400;
 }
@@ -48,6 +54,20 @@ a.anch {
 	text-align : right;
 	font-weight : 400;
 }
+.btn-haxe {
+	background : #FF9900;
+	background : -moz-linear-gradient(top,#FF9900 0%,#E68A00 100%);
+	background : -o-linear-gradient(top,#FF9900 0%,#E68A00 100%);
+	background : -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FF9900),color-stop(100%,#E68A00));
+	background : linear-gradient(#FF9900,#E68A00);
+	background-color : transparent\9;
+	filter : progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF9900, endColorstr=#E68A00);
+	zoom : 1;
+	color : white;
+}
+.btn-haxe:hover {
+	background : #E68A00;
+}
 .section.black {
 	background : #222;
 	background : -moz-linear-gradient(top,#222 0%,#333 100%);
@@ -63,7 +83,7 @@ a.anch {
 	color : white;
 }
 .section.black a {
-	color : #6CF;
+	color : #FFB666;
 }
 .section.footer {
 	background : #222;
@@ -105,16 +125,29 @@ a.anch {
 .section.head p.tagLine b {
 	color : #666;
 }
+.section.head ul.logos {
+	border-radius : 10px;
+	-moz-border-radius : 10px;
+	-webkit-border-radius : 10px;
+	background-color : #eee;
+	padding : 10px;
+}
 .section.head ul.logos li {
 	list-style : none;
-	width : 100px;
+	width : 80px;
 	display : inline-block;
 	zoom : 1;
 	*display : inline;
 	text-align : center;
 }
 .section.head ul.logos li img {
-	max-height : 64px;
+	max-height : 48px;
+}
+.section.head ul.logos li.arr {
+	width : 20px;
+	font-size : 32px;
+	font-weight : bold;
+	margin-right : 30px;
 }
 .section.head a.start {
 	margin-top : 50px;
